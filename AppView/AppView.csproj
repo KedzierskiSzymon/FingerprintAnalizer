@@ -101,5 +101,14 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controls\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IOFile\IOFile.csproj">
+      <Project>{A151D5BA-3C75-40E4-867E-146205590E78}</Project>
+      <Name>IOFile</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

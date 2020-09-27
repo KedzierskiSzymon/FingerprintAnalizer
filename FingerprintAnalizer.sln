@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppView", "AppView\AppView.csproj", "{E3E5EB5B-C03D-4BD4-ADDE-83E21B13611E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{F041641F-B6CB-4520-8DEC-9F47578FBFAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{F041641F-B6CB-4520-8DEC-9F47578FBFAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOFile", "IOFile\IOFile.csproj", "{A151D5BA-3C75-40E4-867E-146205590E78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F041641F-B6CB-4520-8DEC-9F47578FBFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F041641F-B6CB-4520-8DEC-9F47578FBFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F041641F-B6CB-4520-8DEC-9F47578FBFAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A151D5BA-3C75-40E4-867E-146205590E78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A151D5BA-3C75-40E4-867E-146205590E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A151D5BA-3C75-40E4-867E-146205590E78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A151D5BA-3C75-40E4-867E-146205590E78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
